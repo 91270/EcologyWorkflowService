@@ -10,7 +10,7 @@ namespace EcologyWorkflowService
     {
 
         private static string workflowId = "6721";
-        private static string workflowName = "河南超威物料编码转换审批单";
+        private static string workflowName = "物料编码转换审批单";
         private static int userId = 3835;
 
         static async Task Main(string[] args)
