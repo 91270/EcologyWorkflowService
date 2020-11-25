@@ -28,7 +28,7 @@ namespace EcologyWorkflowService
             workflowRequestInfo.requestName = $"{workflowName}-杨科-{ DateTime.Now:yyyy-MM-dd}";
             workflowRequestInfo.workflowBaseInfo = workflowBaseInfo;
 
-            #region 创建主表信息
+            #region 创建流程信息
 
             //创建主表字段信息
             List<WorkflowRequestTableField> mainTableField01 = new List<WorkflowRequestTableField>
